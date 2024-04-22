@@ -8,6 +8,11 @@
   <packaging>kjar</packaging>
   <name>HAS</name>
   <description></description>
+    <dependency>
+    <groupId>org.apache.maven</groupId>
+    <artifactId>maven-core</artifactId>
+    <version>3.5.2</version>
+</dependency>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
